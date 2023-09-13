@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidebar nav li {
+    margin: 0px 21px;
+    list-style: none;
+}
+
+.left nav img {
+    height: 5vh;
+    margin: 24px 26px;
+    padding-left: 23px;
+}
+
+.left nav ul {
+    display: flex;
+    margin: 33px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.left nav {
+    display: flex;
+}
+
+.serach {
+    width: 23vw;
+    height: 36px;
+    background: #f5f5f6;
+    border: none;
+    margin: 20px;
+    padding-left: 16px;
+}
+
+.right {
+    display: flex;
+
+    font-weight: bold;
+    padding-left: 83px;
+}
+
+.right div {
+    margin: 20px 12px;
+}
+
+.wishlist a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    background-color: #535766;
+    width: 44px;
+    height: 288px;
+    position: fixed;
+    right: 0;
+    bottom: 130px;
+    cursor: pointer;
+}
+
+.item p {
+    transform: rotate(-180deg);
+    font-size: 24px;
+    text-align: center;
+    color: #fcfcfc;
+    width: 36px;
+    writing-mode: vertical-lr;
+    margin-top: 60px;
+}
+
+.photo {
+    display: flex;
+}
+
+.photo img {
+    padding-top: 43px;
+    height: 100%;
+    width: 673px;
+}
+
+.heading h4 {
+    margin: 88px 0px 10px 30px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: #3e4152;
+    letter-spacing: .15em;
+}
+
+.section1 {
+    display: flex;
+}
+
+.section1 img {
+    width: 224px;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2 img {
+    width: 269px;
+}
+
+.w {
+    text-align: center;
+    margin: 191px auto 128px;
+}
+
+.head {
+    text-align: center;
+    font-size: 20px;
+    color: #282c3f;
+    font-weight: 600;
+}
+
+.h {
+    font-size: 18px;
+    color: #94989f;
+    margin: 18px
+}
+
+.p {
+    margin: 52px;
+}
+
+button {
+    padding: 14px 51px;
+    color: #3466e8;
+    border-radius: 4px;
+    border: 1px solid;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    margin: 82px 155px 24px 157px;
+    display: flex;
+}
+
+.foot {
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.infoot {
+    padding-top: 14px;
+}
+
+.infoot li {
+    list-style: none;
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: #696b79;
+}
+
+.fo {
+    padding-right: 29px;
+    width: 155px;
+}
+
+.fo img {
+    height: 42px;
+    padding-top: 25px;
+}
+
+.image img {
+    margin-right: 15px;
+    height: 19px;
+}
